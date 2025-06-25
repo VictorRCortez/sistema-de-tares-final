@@ -4,8 +4,8 @@ const Task = require('./backend/models/task.model');
 const run = async () => {
   await connectDB(); // Esperar a que la conexión se establezca
   const nuevaTarea = new Task({
-    title: 'Conexion con mongo atlas',
-    description: 'Crear un proyecto, crear un cluster, agregar la ip de red, usar la cadena de conexion',
+    title: 'Nueva tarea',
+    description: 'Descripcion de nueva tarea',
   });
 
   await nuevaTarea.save(); // Esperar a que se guarde la tarea
