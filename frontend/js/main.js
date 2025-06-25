@@ -2,10 +2,10 @@
 // Esta constante permite centralizar la URL del servidor backend tanto para realizar peticiones HTTP como para establecer la conexión WebSocket.
 
 // Para desarrollo local, descomenta la siguiente línea y comenta la línea de producción.
-// const URL_API = 'http://localhost:3000';
+ //const URL_API = 'http://127.0.0.1:3000';
 
 // Producción (Render): se utiliza cuando la aplicacion esta desplegada en la nube.
-const URL_API = 'https://proyecto-web-prueba.onrender.com';
+const URL_API = 'https://sistema-de-tareas-backend.onrender.com';
 
 // Recibe eventos en tiempo real para sincronizar las tareas sin recargar la página.
 const socket = io(URL_API);
