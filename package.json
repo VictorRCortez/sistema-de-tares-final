@@ -1,0 +1,20 @@
+{
+  "name": "sistema-de-tareas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "## Paso 1: Configurar MongoDB Atlas - **Descripción**: Crea una cuenta en MongoDB Atlas, configura el acceso a la base de datos y obtén la URI de conexión. - **Capturas de pantalla**:   - ![Creación del clúster](./documentation/Creacion-del-cluster.png)   - ![Configuración del usuario parte 1](./documentation/Configuracion-usuario1.png)   - ![Configuración del usuario parte 2](./documentation/Configuracion-usuario2.png)   - ![URI de conexión](./documentation/URI-conexion.png)",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^4.18.2",
+    "mongodb": "^6.17.0",
+    "mongoose": "7.0",
+    "socket.io": "^4.8.1"
+  }
+}
